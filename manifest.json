@@ -1,0 +1,12 @@
+{
+  "manifest_version": 3,
+  "name": "Modal Remover",
+  "version": "1.0",
+  "description": "Removes modal popups from web pages",
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["contentScript.js"]
+    }
+  ]
+}
